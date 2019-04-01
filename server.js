@@ -31,7 +31,14 @@ app.get('/about', (req, res) => {
     pageTitle: 'About Page',
     
   });
+});
 
+
+app.get('/softsam', (req, res) => {
+  res.render('softsam.hbs', {
+    pageTitle: 'Softsam Page',
+    
+  });
 });
 
 app.get('/bad', (req, res) => {
